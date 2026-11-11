@@ -75,5 +75,5 @@ ENTRYPOINT ["/bin/sh", "-c", "exec supergateway \
   --streamableHttpPath /mcp \
   --healthEndpoint /healthz \
   --port \"${PORT}\" \
-  --sessionTimeout 3600000 \
+  --sessionTimeout 604800000 \
   --logLevel info"]
